@@ -12,10 +12,33 @@
 </head>
 <body>
 <!--Cree un Formulario con los campos que se proponen a continuacion-->
+<title>Cuadros de texto</title>
+        <!--Esta línea a continuación sirve para que los caracteres
+         como la ñ o tildes se visualicen correctamente-->
+	<meta charset="UTF-8">
 <!--Agregue el atributo legend-->
-
 <!--Si tienes dudas de como hacer un formulario, puedes consultar:
     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
+
+    <div id="contenedor">
+        <h2 id="encabezado">Datos personales</h2>
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+            Nombre:<br>
+            <input type="text" name="nombre" id="nombre" value=""><br>
+            Apellidos:<br>
+            <input type="text" name="apellidos" id="apellidos" value=""><br>
+            Sexo::<br>
+            <input type="text" name="sexo" id="sexo" value="" disabled="disabled"><br>
+            Edad:<br>
+            <input type="text" name="edad" id="edad" size="2" maxlength="2" value=""><br>
+            Email:<br>
+            <input type="text" name="Email"  id="Email" value=""><br>
+            Usuario:<br>
+            <input type="text" name="Usuario"  id="Usuario" value=""><br>
+            Contraseña:<br>
+            <input type="text" name="Contraseña"  id="Contraseña" value=""><br>
+        </form>
+    </div>	
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
 Nombre:
